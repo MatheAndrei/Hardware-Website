@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hardware - Componente</title>
+	<link rel="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/componente.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.png" width="200">
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Acasă</a></li>
+					<li><a href="componente.html">Componente</a></li>
+					<li><a href="despre.html">Despre</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="content">
+			<h2>Componente</h2>
+			<table>
+				<tr>
+					<td id="CPU" align="center" onclick="gotoLink('cpu.html')">
+						<img src="img/icons/cpu-icon.png">
+						<p>CPU</p>
+					</td>
+					<td id="GPU" align="center" onclick="gotoLink('gpu.html')">
+						<img src="img/icons/gpu-icon.png">
+						<p>GPU</p>
+					</td>
+					<td id="MOTHERBOARD" align="center" onclick="gotoLink('motherboard.html')">
+						<img src="img/icons/motherboard-icon.png">
+						<p>MOTHERBOARD</p>
+					</td>
+					<td id="RAM" align="center" onclick="gotoLink('ram.html')">
+						<img src="img/icons/ram-icon.png">
+						<p>RAM</p>
+					</td>
+				</tr>
+
+				<tr>
+					<td id="HDD" align="center" onclick="gotoLink('hdd.html')">
+						<img src="img/icons/hdd-icon.png">
+						<p>HDD</p>
+					</td>
+					<td id="SSD" align="center" onclick="gotoLink('ssd.html')">
+						<img src="img/icons/ssd-icon.png">
+						<p>SSD</p>
+					</td>
+					<td id="ODD" align="center" onclick="gotoLink('odd.html')">
+						<img src="img/icons/cd-drive-icon.png">
+						<p>ODD</p>
+					</td>
+					<td id="PSU" align="center" onclick="gotoLink('psu.html')">
+						<img src="img/icons/psu-icon.png">
+						<p>PSU</p>
+					</td>
+				</tr>
+			</table>
+
+			<h2>Periferice - Exemple</h2>
+			<table>
+				<tr>
+					<td id="MONITOR" align="center">
+						<img src="img/icons/monitor-icon.png">
+						<p>MONITOR</p>
+					</td>
+					<td id="MOUSE" align="center">
+						<img src="img/icons/mouse-icon.png">
+						<p>MOUSE</p>
+					</td>
+					<td id="KEYBOARD" align="center">
+						<img src="img/icons/keyboard-icon.png">
+						<p>KEYBOARD</p>
+					</td>
+					<td id="SPEAKER" align="center">
+						<img src="img/icons/speaker-icon.png">
+						<p>SPEAKER</p>
+					</td>
+				</tr>
+
+				<tr>
+					<td id="CONTROLLER" align="center">
+						<img src="img/icons/controller-icon.png">
+						<p>CONTROLLER</p>
+					</td>
+					<td id="WEBCAM" align="center">
+						<img src="img/icons/webcam-icon.png">
+						<p>WEBCAM</p>
+					</td>
+					<td id="PRINTER" align="center">
+						<img src="img/icons/printer-icon.png">
+						<p>PRINTER</p>
+					</td>
+					<td id="PROJECTOR" align="center">
+						<img src="img/icons/projector-icon.png">
+						<p>PROJECTOR</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+	function gotoLink(pagelink){
+		document.location = pagelink;
+	}
+</script>
+
+</html>

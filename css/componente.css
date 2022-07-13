@@ -1,0 +1,106 @@
+@font-face{
+font-family: TitilliumWeb-Regular;
+src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+body{
+margin: 0;
+margin-bottom: 100px;
+padding: 0;
+font-family: TitilliumWeb-Regular;
+color: darkgray;
+background: #f3f3f3;
+}
+
+h2{
+color: white;
+}
+
+.container{
+max-width: 960px;
+margin: auto;
+}
+
+/* -------HEADER------- */
+
+header{
+background: #fff;
+margin-bottom: 20px;
+overflow: hidden;
+}
+
+.logo{
+float: left;
+margin-top: 10px;
+}
+
+nav{
+float: right;
+}
+
+nav ul li{
+display: inline-block;
+padding: 5px 20px;
+margin-left: 10px;
+background: #f3f3f3;
+}
+
+nav ul li:hover{
+background: #e8e8e8;
+}
+
+nav ul li a{
+text-decoration: none;
+color: darkgray;
+}
+
+/* -------CONTENT------- */
+
+.content h2{
+background: #ff4719;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.content table tr td{
+width: 240px;
+height: 240px;
+}
+
+.content table tr td:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+
+.content table tr td img{
+max-width: 130px;
+margin-bottom: 15px;
+}
+
+.content table tr td p{
+margin: 0;
+color: white;
+font-size: 25px;
+}
+
+/* -------COMPONENTS------- */
+
+#CPU {background: #4B8443;}
+#GPU {background: #3F2B37;}
+#MOTHERBOARD {background: #D24D25;}
+#RAM {background: #6C2F30;}
+#HDD {background: #FFA700;}
+#SSD {background: #A62E38;} 
+#ODD {background: #00585E;}
+#PSU {background: #3F7165;}
+
+/* -------PERIPHERAL------- */
+#MONITOR {background: #9BCC5F;}
+#MOUSE {background: #FFDD75;}
+#KEYBOARD {background: #900C3E;}
+#SPEAKER {background: #fd8469;}
+#CONTROLLER {background: #76c2af;}
+#WEBCAM {background: #942D74;}
+#PRINTER {background: #0b8180;}
+#PROJECTOR {background: #675DB1;}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hardware - GPU</title>
+	<link rel="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/gpu.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.png" width="200">
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Acasă</a></li>
+					<li><a href="componente.html">Componente</a></li>
+					<li><a href="despre.html">Despre</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="content">
+			<h2>GPU (Graphics Processing Unit)</h2>
+			<article>
+				<ul class="article-contents">
+					<li style="font-size: 17px;">CUPRINS:</li>
+					<li>- Definiţie</li>
+					<li>- Prezentare generală</li>
+					<li>- VRAM (Video RAM)</li>
+					<li>- Istorie</li>
+				</ul>
+
+				<section class="first-section">
+					<h3>Definiţie</h3>
+					<p>GPU-ul, cunoscut ca şi placa video, placă grafică sau Unitate de Procesare Grafică, este similar cu microprocesorul şi este specific proiectat pentru a realiza calcule matematice şi geometrice complexe, care sunt necesare pentru randări grafice. Unele din cele mai rapide plăci video au mai multi tranzistori faţă de microprocesoare.
+					</p>
+				</section>
+
+				<section style="clear: both;">
+					<div style="float: left; max-width: 500px;">
+						<h3>Prezentare generală</h3>
+						<p>Imaginea din dreapta este un exemplu de placă video. Aceasta se plasează într-un loc special, ce se gaseşte pe placa de baza. Placa grafică produce o cantitate mare de caldură, astfel ele sunt acoperite de un radiator şi un ventilator.
+						</p>
+					</div>
+					<img src="img/GPU-image.jpg" style="float: right; max-width: 500px; margin-top: 25px; border: 1px solid darkgray; padding: 2px;">
+				</section>
+				
+				<section style="clear: both; overflow: hidden;">
+					<h3>VRAM (Video RAM)</h3>
+					<p>Placa video crează imagini, astfel are nevoie să stocheze undeva informaţiile şi imaginile complete. Aşadar, acesta se foloseşte propria sa memorie RAM, numită VRAM. Această memorie stochează informaţii despre fiecare pixel, culoarea lui, locaţia lui pe ecran. O parte din RAM poate acţiona ca frame buffer, asta însemnand ca păstrează imagini completate până cand este timpul de a le afişa. Acest tip de memorie lucrează la viteze foarte mari şi este dual ported, însemnând ca sistemul este capabil de a citi din VRAM şi de a scrie din acesta, în acelaşi timp.
+					</p>
+					
+					<p>VRAM este conectat direct la un digital-to-analog converter, numit DAC. Acest convertor se mai numeşte RAMDAC, şi are rolul de a converti o imagine într-un semnal analogic pe care monitorul îl poate folosi. Unele placi video au mai multe RAMDAC-uri, ceea ce duce o la performanta mai mare si la capacitatea de a suporta mai multe monitoare.
+					</p>
+				</section>
+				
+				<section>
+					<h3>Istorie</h3>
+					<p>Prima placa video a fost produsa de IBM in 1981. Aceasta a fost numita Monochrome Display Adapter (MDA), si putea sa afiseze pe 25 randuri cu 80 de coloane caractere si simboluri cu rezolutie mare in verde sau alb pe un ecran negru.
+                    </p>
+                    <center>
+                    	<h3 style="margin-top: 40px; margin-bottom: 0;">IBM Monochrome Display (MDA)</h3>
+                    </center>
+                    <img src="img/MDA.png" style="max-width: 100%;">
+				</section>
+			</article>
+		</div>
+	</div>
+</body>
+
+</html>

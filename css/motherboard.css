@@ -1,0 +1,107 @@
+@font-face{
+font-family: TitilliumWeb-Regular;
+src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+body{
+margin: 0;
+margin-bottom: 100px;
+padding: 0;
+font-family: TitilliumWeb-Regular;
+color: darkgray;
+background: #f3f3f3;
+}
+
+h2{
+color: white;
+}
+
+.container{
+max-width: 960px;
+margin: auto;
+}
+
+/* -------HEADER------- */
+
+header{
+background: #fff;
+margin-bottom: 20px;
+overflow: hidden;
+}
+
+.logo{
+float: left;
+margin-top: 10px;
+}
+
+nav{
+float: right;
+}
+
+nav ul li{
+display: inline-block;
+padding: 5px 20px;
+margin-left: 10px;
+background: #f3f3f3;
+}
+
+nav ul li:hover{
+background: #e8e8e8;
+}
+
+nav ul li a{
+text-decoration: none;
+color: darkgray;
+}
+
+/* -------CONTENT------- */
+
+.content h2{
+background: #ff4719;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.content section{
+margin-bottom: 50px;
+}
+
+.article-contents{
+float: right;
+width: 250px;
+background: #338989;
+margin-top: 0;
+padding: 20px;
+border-radius: 5px;
+list-style: none;
+}
+.article-contents li{
+color: white;
+margin-bottom: 5px;
+}
+
+.first-section{
+float: left;
+max-width: 600px;
+}
+.first-section h3{
+margin: 0;
+}
+.first-section p{
+margin-bottom: 0;
+}
+
+
+.motherboard-components{
+float: left;
+max-width: 460px;
+margin-bottom: 50px;
+}
+
+.motherboard-images{
+float: right;
+max-width: 400px;
+border: 1px solid darkgray;
+padding: 2px;
+}
